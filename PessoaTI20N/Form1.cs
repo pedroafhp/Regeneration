@@ -49,5 +49,10 @@ namespace PessoaTI20N
         {
             exc.ShowDialog();
         }//Fim do Excluir
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }//Fim da Classe
 }//Fim do Projeto

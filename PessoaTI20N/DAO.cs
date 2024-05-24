@@ -20,7 +20,7 @@ namespace PessoaTI20N
 
         public DAO()
         {
-            conexao = new MySqlConnection("server=localhost;Database=empresaTI20N;Uid=root;password=");
+            conexao = new MySqlConnection("server=localhost;Database=Regeneration;Uid=root;password=");
             try
             {
                 conexao.Open();//Abrir a Conexão
@@ -43,7 +43,7 @@ namespace PessoaTI20N
 
         public void PreencherVetor()
         {
-            string query = "select * from pessoa";
+            string query = "select * from cadastro";
 
             //Instanciar
             this.cpf = new long[100];
